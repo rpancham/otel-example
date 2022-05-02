@@ -1,7 +1,9 @@
 {
-  "extends": "semistandard",
+  "extends": "standard",
   "rules": {
     "prefer-const": "error",
+    "semi": ["error", "always"],
+    "no-extra-semi": "error",
     "block-scoped-var": "error",
     "prefer-template": "warn",
     "no-unneeded-ternary": "warn",
